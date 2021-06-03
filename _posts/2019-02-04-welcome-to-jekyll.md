@@ -1,39 +1,48 @@
 ---
 layout: post
-title:  "Welcome to devlopr-jekyll !"
-summary: "Getting Started using devlopr-jekyll"
-author: johndoe
-date: '2019-05-22 14:35:23 +0530'
+title:  "Debug - flow"
+summary: "todo"
+author: ReneSchouten
+date: '01/06/2021'
+thumbnail: /assets/img/debug_flow.jpg
+permalink: /projects/todo/
 category: jekyll
-thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
-permalink: /blog/welcome-to-devlopr-jekyll/
 usemathjax: true
 ---
 
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This project is currently in development.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Debug flow is a debug manager that will make debugging with console logs easier and more flexible. The most development environments have a simple console with almost no options, even changing the log level on the go is usually not possible. Debug flow goes far beyond that.
 
-Jekyll also offers powerful support for code snippets:
+Debug flow is seperate fromdevelopment environments, it support all kinds of input sources, much different filters can be applied and there are different ways to show the output. The goal is the let developers build a convenient debugging environment within a few minutes that saves hours of debugging.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+A few examples:
 
-or
+-    input from executable
+-    input from serial ports
+-    input from sockets
+-    input from file
+-    filtering on log level
+-    filtering on tag
+-    hiding log context
+-    adding colors to specific text
+-    splitting to different windows
+-    saving to file
+-    show data in console
+-    show html context
+-    console with real time filtering
+-    console with collapsible tree debugging
+-    showing a measurement on a widget
+-    showing measurements in a graph
+-    showing measurements in a table
+-    synchronizing all windows with a timeline
+-    outputs to communicate back
+-    custom nodes
 
-```javascript
-var a = 1;
-var b = 2;
-function sum (num1,num2){
-  return num1+num2;
-}
-var result = sum(a,b);
-```
+And so on, to make that possible in a user interface the application works with flow programming, where each of that function is a node. The goal to make it possible to change the flow real time with backwards updates.
 
+The application is writen in C++ using the Qt framework.
+
+It will take some time before the first stable version will be released.

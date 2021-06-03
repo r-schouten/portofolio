@@ -6,6 +6,13 @@ GEM
     backports (3.21.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.8)
+    devlopr (0.4.5)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-feed (~> 0.13.0)
+      jekyll-gist (~> 1.5.0)
+      jekyll-paginate (~> 1.1.0)
+      jekyll-seo-tag (~> 2.6.1)
+      jekyll-sitemap (~> 1.4.0)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -128,6 +135,7 @@ GEM
       tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
     wdm (0.1.1)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -135,7 +143,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.2.6)
-  jekyll (~> 4.2, >= 4.1.1)
+  devlopr (~> 0.4.5)
+  jekyll (~> 4.2)
   jekyll-admin (~> 0.11.0)
   jekyll-feed (~> 0.13.0)
   jekyll-gist (~> 1.5.0)
@@ -151,6 +160,7 @@ DEPENDENCIES
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
+  webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.16
+   2.2.19

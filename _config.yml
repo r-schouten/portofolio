@@ -1,5 +1,5 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: René Schouten
+subtitle: Software and a bit of hardware, science and math
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -8,93 +8,142 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
-      url: /
     - text: About
-      url: /about
-    - text: Blog
+      url: /
+    - text: Projects
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_logo: profilePhoto.jpg
+author: René Schouten
+author_bio: "
+I started developing software at a young age, as a little boy I bought a Lego Mindstorms kit. After some time, I started programming a C like language on the brick. I saw many possibilities, I made a snake game on the little display, a flappy bird game, and I build an automatic 4 on a row game player.
+
+<br/><br/>
+
+These early projects tell something about who I am, I didn’t have example code on how to build the snake game, it was an adventure to find out how to write it. The automatic 4 on a row is not like writing simple consecutive steps, it’s a puzzle to think about what behavior it should have, it required some math and algorithmic thinking. 
+
+<br/><br/>
+
+Over the years, I learned so much more, but the way of thinking is still the same. I like solving puzzles, I like to come up with my own solutions, combining software with hardware, math, and algorithms.
+<br/><br/>
+
+I like to work in the field of embedded systems, I have gathered hardware experience by designing PCBs during my study, at home I build a little lab with an oscilloscope, soldering material, a 3d printer and more. I have been working on different embedded platforms, like STM32, Espressif, EmbedOs and Arduino. I often did low level things on register level and I believe that I understand the basic architecture of an ARM like microcontroller well enough.
+<br/><br/>
+
+I’m quite ambitious, I like to work on difficult riddles, working towards the point where I build something where I can be proud of. It usually happens that development ends at the point where it just works, I prefer to take it one step further to the level of convenience. 
+<br/><br/>
+
+I like to work on all kinds of things: hardware, embedded software, FPGA, software for different kinds of applications or something totally else. I’m looking for that thing that they have in common, the challenging engineering puzzle that needs to be solved.
+
+<br/><br/>"
+author_location: Rotterdam, Netherlands
+#author_website_url: "url todo"
+typewrite-text: The portofolio of René Schouten, embedded software engineer
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
+            - company_name: Nearfield Instruments B.V
+              company_logo: NFI.jpg
+              company_url: https://www.nearfieldinstruments.com
               designation: Software Engineer
-              description: Worked on various Google Products
+              description: Software at the PLC software team
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: TWTG R&D
+              company_logo: twtg.png
+              company_url: https://twtg.io
+              description: I have been contrubuting to the hack the poacher project. This is a non-profit project to help preventing poaching of rhinos using smart poacher detection technology. I have been working on a custom LoRa mesh network for the poacher sniffers.
+              designation: Embedded software engineer
+              visibility: true
+            - company_name: Medical-X
+              company_logo: medicalX.jpg
+              company_url: https://medical-x.com
+              designation: Embedded system engineer
+              description: After 2 years of work on production of the NENASim baby simulator, I started developing embedded hardware and software for the ADAM-X patient simulator.
+              visibility: true
+            - company_name: Medical-X
+              company_logo: medicalX.jpg
+              company_url: https://medical-x.com
+              designation: Production assistant
+              description: At Medical-X I have contributed to the production of the NENASim baby simulator.
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: HR.jpg
+                college_name: Hogeschool Rotterdam
+                college_url: https://www.hogeschoolrotterdam.nl
+                college_degree: bachelor
+                description: Technische informatica / applied computer science
                 visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: debug_flow.jpg
+                project_title: Debug Flow
+                project_description: A flexible open source log manager
+                project_url: /projects/debugflow
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: energymeter.jpg
+                project_title: DC energy meter
+                project_description: with 700V 16A capabilities
+                project_url: /projects/DC-energymeter
+                visibility: true
+              - project_thumbnail: swarmbotron.jpg
+                project_title: Swarmbotron
+                project_description: A swarm robotics project
+                project_url: /projects/swarmbotron
+                visibility: true
+              - project_thumbnail: minitron.jpg
+                project_title: Minitron
+                project_description: an over-enginered ball searching robot
+                project_url: /projects/minitron
+                visibility: true
+              - project_thumbnail: povglobev2.jpg
+                project_title: POV Globe V2
+                project_description: An improved version of the POV globe
+                project_url: /projects/POV-globe-V2
+                visibility: true
+              - project_thumbnail: povglobe-V1.png
+                project_title: POV Globe V1
+                project_description: A rotating disk with leds as a round display
+                project_url: /projects/POV-globe-V1
+                visibility: true
+              - project_thumbnail: ufinder.jpg
+                project_title: U-Finder
+                project_description: A indoor location system with UWB
+                project_url: /projects/ufinder
+                visibility: true
+              - project_thumbnail: bank.png
+                project_title: Bank project
+                project_description: An ATM with some bad jokes
+                project_url: /projects/bank
                 visibility: true
 
+
+
+
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+github_username:  r-schouten
+linkedin_username: rené-schouten-570949183
+
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+#hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+#wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
-getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+#getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
+#formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
