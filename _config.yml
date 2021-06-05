@@ -4,8 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
 url: "r-schouten.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
-
+baseurl: "portofolio/" # the subpath of your site, e.g. /blog
+permalink: /:title
 # Navigation
 urls:
     - text: About
@@ -170,7 +170,7 @@ paginate_path: "/blog/page/:num/"
 #   comments: ["<!-- ", " -->"]
 #   endings: all
 #   ignore:
-#     envs: ['development']
+#     envs: ['opment']
 
 # Archives
 # jekyll-archives:
