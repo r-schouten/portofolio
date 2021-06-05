@@ -106,7 +106,7 @@ author_project_details:
                 project_description: An improved version of the POV globe
                 project_url: /projects/POV-globe-V2
                 visibility: true
-              - project_thumbnail: povglobe-V1.png
+              - project_thumbnail: povglobe-v1.png
                 project_title: POV Globe V1
                 project_description: A rotating disk with leds as a round display
                 project_url: /projects/POV-globe-V1
