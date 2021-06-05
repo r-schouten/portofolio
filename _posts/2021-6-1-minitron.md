@@ -9,10 +9,15 @@ permalink: /projects/minitron/
 category: jekyll
 keywords: minitron
 usemathjax: true
-youtubeId: 1Uj3Cq5A6bI
 ---
 
-{% include youtubeplayer.html id=page.youtubeId %}
+<div class="embed-container"><iframe
+      src="https://www.youtube.com/embed/1Uj3Cq5A6bI"
+      width="700"
+	  height="480"
+      frameborder="0"
+      allowfullscreen="">
+  </iframe></div>
 [Github link](https://github.com/magnocube/minitron)
 
 The robot was supposed to search for balls, but that is a bit boring so we made some nice features.

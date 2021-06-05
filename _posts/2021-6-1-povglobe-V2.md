@@ -12,7 +12,13 @@ usemathjax: true
 youtubeId: g7_VKGsEKeA
 ---
 
-{% include youtubeplayer.html id=page.youtubeId %}
+<div class="embed-container"><iframe
+      src="https://www.youtube.com/embed/g7_VKGsEKeA"
+      width="700"
+	  height="480"
+      frameborder="0"
+      allowfullscreen="">
+  </iframe></div>
 [Github server repository](https://github.com/magnocube/POV-Globe)
 
 [Github controller repository](https://github.com/r-schouten/pov-globe-esp32), outdated

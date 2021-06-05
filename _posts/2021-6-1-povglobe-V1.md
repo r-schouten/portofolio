@@ -9,10 +9,15 @@ permalink: /projects/POV-globe-V1/
 category: jekyll
 keywords: POV-globe
 usemathjax: true
-youtubeId: kut4uUSUP94
 ---
 
-{% include youtubeplayer.html id=page.youtubeId %}
+<div class="embed-container"><iframe
+      src="https://www.youtube.com/embed/kut4uUSUP94"
+      width="700"
+	  height="480"
+      frameborder="0"
+      allowfullscreen="">
+  </iframe></div>
 [Github server repository](https://github.com/magnocube/POV-Globe)
 
 [Github controller repository](https://github.com/r-schouten/pov-globe-esp32), outdated
