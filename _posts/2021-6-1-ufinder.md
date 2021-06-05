@@ -12,7 +12,7 @@ usemathjax: true
 youtubeId: FPF-7-V6-Bk
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubeplayer.html id=page.youtubeId %}
 [Github link](https://github.com/r-schouten/UFinder)
 
 A indoor location system for eldery care use.

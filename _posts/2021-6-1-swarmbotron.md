@@ -12,7 +12,7 @@ usemathjax: true
 youtubeId: 2AMBKfd8Uyc
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubeplayer.html id=page.youtubeId %}
 [Github link](https://github.com/RemcoMusic/SwarmboTron)
 
 My responsiblity was to make the swarm behaviour algorithms and the virtual robot simulation.

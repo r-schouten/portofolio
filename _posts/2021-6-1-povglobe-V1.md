@@ -12,7 +12,7 @@ usemathjax: true
 youtubeId: kut4uUSUP94
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubeplayer.html id=page.youtubeId %}
 [Github server repository](https://github.com/magnocube/POV-Globe)
 
 [Github controller repository](https://github.com/r-schouten/pov-globe-esp32), outdated

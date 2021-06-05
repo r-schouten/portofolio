@@ -12,7 +12,7 @@ usemathjax: true
 youtubeId: 1Uj3Cq5A6bI
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubeplayer.html id=page.youtubeId %}
 [Github link](https://github.com/magnocube/minitron)
 
 The robot was supposed to search for balls, but that is a bit boring so we made some nice features.
