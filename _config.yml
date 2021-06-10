@@ -19,24 +19,19 @@ urls:
 author_logo: profilePhoto.jpg
 author: René Schouten
 author_bio: "
-I started developing software at a young age, as a little boy I bought a Lego Mindstorms kit. After some time, I started programming a C like language on the brick. I saw many possibilities, I made a snake game on the little display, a flappy bird game, and I build an automatic 4 on a row game player.
+Welcome to my portfolio, I’m René Schouten, an enthusiast software developer. I like to solve engineering puzzles, puzzles that need creativity and dedication to be solved. I’m searching for puzzles mainly in the field of embedded systems, where I combine my engineering skills with electronics, algorithms, mathematics. 
 
 <br/><br/>
 
-These early projects tell something about who I am, I didn’t have example code on how to build the snake game, it was an adventure to find out how to write it. The automatic 4 on a row is not like writing simple consecutive steps, it’s a puzzle to think about what behavior it should have, it required some math and algorithmic thinking. 
+Over the years I have done numerous projects, on this portfolio you find some projects which I did during my study of applied computer science. I’ve been working on this project with enthusiasm, trying to make something that not just works, but I aimed to make something more convenient and good enough to be proud of it.
 
 <br/><br/>
 
-Over the years, I learned so much more, but the way of thinking is still the same. I like solving puzzles, I like to come up with my own solutions, combining software with hardware, math, and algorithms.
+I have written quite some software for embedded systems, for example on STM32, ESP32, MPS432 ,  Nordic MCUs and ATmega MCUs. I worked with the different platforms, and for some of them I had to do quite some work on register level. For more general software development, I have been using Java and C++ (Qt).  
 <br/><br/>
 
-I like to work in the field of embedded systems, I have gathered hardware experience by designing PCBs during my study, at home I build a little lab with an oscilloscope, soldering material, a 3d printer and more. I have been working on different embedded platforms, like STM32, Espressif, EmbedOs and Arduino. I often did low level things on register level and I believe that I understand the basic architecture of an ARM like microcontroller well enough.
-<br/><br/>
+Besides software engineering, I’ve spent quite some time developing hardware. Over the years I have made several PCBs. Gathered the most important tools like an oscilloscope, soldering material, a 3d printer and much more. <br/><br/>
 
-I’m quite ambitious, I like to work on difficult riddles, working towards the point where I build something where I can be proud of. It usually happens that development ends at the point where it just works, I prefer to take it one step further to the level of convenience. 
-<br/><br/>
-
-I like to work on all kinds of things: hardware, embedded software, FPGA, software for different kinds of applications or something totally else. I’m looking for that thing that they have in common, the challenging engineering puzzle that needs to be solved.
 
 <br/><br/>"
 author_location: Rotterdam, Netherlands
