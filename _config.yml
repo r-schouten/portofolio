@@ -19,19 +19,14 @@ urls:
 author_logo: profilePhoto.jpg
 author: René Schouten
 author_bio: "
-Welcome to my portfolio, I’m René Schouten, an enthusiast software developer. I like to solve engineering puzzles, puzzles that need creativity and dedication to be solved. I’m searching for puzzles mainly in the field of embedded systems, where I combine my engineering skills with electronics, algorithms, mathematics. 
+Welcome to my portfolio, I’m René Schouten, an enthusiastic software developer. I like to solve engineering puzzles that require creativity and dedication to be solved. I’m looking for puzzles mainly in the field of embedded systems, where I combine my software engineering skills with electronics, algorithms, mathematics.
 
+ <br/><br/>
+
+Over the years I have worked on numerous projects. On this portfolio you will find some projects which I did during my study of applied computer science. I’ve been working on these projects with enthusiasm, trying to make something that not just works, but I aimed to make something more convenient and good enough to be proud of.
 <br/><br/>
 
-Over the years I have done numerous projects, on this portfolio you find some projects which I did during my study of applied computer science. I’ve been working on this project with enthusiasm, trying to make something that not just works, but I aimed to make something more convenient and good enough to be proud of it.
-
-<br/><br/>
-
-I have written quite some software for embedded systems, for example on STM32, ESP32, MPS432 ,  Nordic MCUs and ATmega MCUs. I worked with the different platforms, and for some of them I had to do quite some work on register level. For more general software development, I have been using Java and C++ (Qt).  
-<br/><br/>
-
-Besides software engineering, I’ve spent quite some time developing hardware. Over the years I have made several PCBs. Gathered the most important tools like an oscilloscope, soldering material, a 3d printer and much more. <br/><br/>
-
+I have written quite some software for embedded systems, for example on STM32, ESP32, MPS432 ,  Nordic MCUs and ATmega MCUs. I’ve worked with the different platforms, and for some of them I had to do some work on register level. For more general software development, I have been using Java and C++ (Qt).  Besides software engineering, I’ve spent quite some time developing hardware. Over the years I have made several PCB designs for work and projects. 
 
 <br/><br/>"
 author_location: Rotterdam, Netherlands
@@ -44,7 +39,7 @@ author_work_experiences:
               company_logo: NFI.jpg
               company_url: https://www.nearfieldinstruments.com
               designation: Software Engineer
-              description: Software at the PLC software team
+              description: Software at the PLC software team.
               visibility: true
             - company_name: TWTG R&D
               company_logo: twtg.png
@@ -108,7 +103,7 @@ author_project_details:
                 visibility: true
               - project_thumbnail: ufinder.jpg
                 project_title: U-Finder
-                project_description: A indoor location system with UWB
+                project_description: An indoor location system with UWB
                 project_url: /projects/ufinder
                 visibility: true
               - project_thumbnail: bank.png
